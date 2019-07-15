@@ -356,7 +356,7 @@ h2 {
 /*PART 3*/
 
 #part {
-    background: url('../img/nose-bg.png');
+    background: url('../img/bg2.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -393,7 +393,7 @@ h2 {
 }
 
 .reddish {
-    color: #f55150;
+    color: white;
 }
 
 
@@ -474,13 +474,8 @@ footer p {
 
 .inline {
     display: inline-block;
-    font-size: 15px;
-    vertical-align: middle;
-}
-
-.inline a {
-    text-decoration: none;
-    color: black;
+    font-size: 20px;
+    vertical-align: auto;
 }
 
 .cr,
@@ -496,6 +491,6 @@ footer p {
 .cr:after,
 .me:after {
     content: "";
-    border: 1px solid #555555;
-    margin-left: 35px;
+    border: 1px solid #302f2f;
+    margin-left: 40px;
 }
