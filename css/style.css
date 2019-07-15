@@ -241,7 +241,9 @@ h2 {
     text-transform: uppercase;
     text-decoration: none;
     margin-left: 30px;
+    padding-bottom: 3px;
     border-bottom: 4px solid white transparent;
+    transition: border-bottom 0.4s, color 0.3s;
 }
 
 .nav li a:hover {
