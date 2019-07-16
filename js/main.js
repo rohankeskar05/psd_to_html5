@@ -2,6 +2,17 @@ $(document).ready(function() {
 
     new WOW().init();
 
+    var typed = $(".typed");
+
+    $(function() {
+        typed.typed({
+            strings: ["Rohan Keskar.", "Designer.", "Developer.", "Trekker.", "Photographer"],
+            typeSpeed: 100,
+            loop: true,
+        });
+    });
+
+
     $('.bur-nav').on("click", function() {
         $(".container nav ul").toggleClass("open");
     });
