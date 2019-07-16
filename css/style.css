@@ -231,6 +231,7 @@
     .nav li {
         display: inline-block;
         margin: 10px 0;
+        position: sticky;
     }
     
     .nav li a {
@@ -560,7 +561,8 @@
             margin-top: 20px;
         }
         .navbar {
-            overflow: hidden;
+            overflow: auto;
+            height: 100%;
             position: absolute;
             right: 30px;
             top: 50px;
@@ -593,6 +595,9 @@
             margin: 0;
             display: block;
         }
+        .container nav ul li a:hover {
+            border: none;
+        }
         .container nav ul li a {
             color: white;
             padding: 10px;
@@ -613,7 +618,7 @@
         }
     }
     
-    @media only screen and (max-width: 700px) {
+    @media only screen and (max-width: 760px) {
         .cr:after,
         .me:after {
             display: none;
